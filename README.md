@@ -1,16 +1,20 @@
 # Project Setup Guide
 
-This project requires a few Python libraries to be installed before running the code.
-
-## Prerequisites
-- Python 3.8 or higher installed
-- `pip` (Python package manager)
+This project uses Python for data preprocessing, clustering, and visualization.
 
 ---
 
-## Install Required Modules
+## Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
 
-### Option 1: Using requirements.txt (Recommended)
+---
 
-1. Create a file named `requirements.txt` in your project folder.
-2. Add the following content:
+## Install Dependencies
+
+All required libraries are already listed in `requirements.txt`.
+
+Run the following command in the project directory:
+
+```bash
+pip install -r requirements.txt
